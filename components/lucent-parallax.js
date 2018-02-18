@@ -13,11 +13,8 @@ export class LucentParallax extends PolymerElement {
 	static get template() {
     return `
         <!--STYLES-->
-			<!--START-MUI-STYLES-->
-<link href="//cdn.muicss.com/mui-0.9.35/css/mui.min.css" rel="stylesheet" type="text/css" />
-<script src="//cdn.muicss.com/mui-0.9.35/js/mui.min.js"></script>
-<!--END-MUI-STYLES->
-
+            <link href="//cdn.muicss.com/mui-0.9.35/css/mui.min.css" rel="stylesheet" type="text/css" />
+            <script src="//cdn.muicss.com/mui-0.9.35/js/mui.min.js"></script>
         <!--END-STYLES-->
 
         <!--TEMPLATE-->

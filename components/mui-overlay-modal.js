@@ -1,44 +1,35 @@
 import { Element as	PolymerElement } from "/node_modules/@polymer/polymer/polymer-element.js"
 
 export class MuiOverlayModal extends PolymerElement {
-    static get observers(){
-    
-    
-    }
-	static get template() {
-    return `
-        <!--STYLES-->
-			
-<link href="//cdn.muicss.com/mui-0.9.35/css/mui.min.css" rel="stylesheet" type="text/css" />
-<script src="//cdn.muicss.com/mui-0.9.35/js/mui.min.js"></script>
+	static get observers(){}
+	static get template(){
+	return `
+	<!--STYLES-->
+        <link href="//cdn.muicss.com/mui-0.9.35/css/mui.min.css" rel="stylesheet" type="text/css" />
+        <script src="//cdn.muicss.com/mui-0.9.35/js/mui.min.js"></script>
+	<!--END-STYLES-->
 
-        <!--END-STYLES-->
+	<!--TEMPLATE-->
+	<button class="mui-btn mui-btn--primary" onclick="activateModal()">Activate modal</button>
+	<!--END-TEMPLATE-->
 
-        <!--TEMPLATE-->
-			<script>
-  function activateModal() {
-        // initialize modal element
-            var modalEl = document.createElement('div');
-                modalEl.style.width = '400px';
-                    modalEl.style.height = '300px';
-                        modalEl.style.margin = '100px auto';
-                            modalEl.style.backgroundColor = '#fff';
-
-                                // show modal
-                                    mui.overlay('on', modalEl);
-                                      }
-                                      </script>
-                                      <button class="mui-btn mui-btn--primary" onclick="activateModal()">Activate modal</button>
-
-        <!--END-TEMPLATE-->
-
-        <!--SCRIPTS-->
-        <!--END-SCRIPTS-->
+	<!--SCRIPTS-->
+	<script>
+	    function activateModal() {
+	        var modalEl = document.createElement('div');
+        	modalEl.style.width = '400px';
+	        modalEl.style.height = '300px';
+            modalEl.style.margin = '100px auto';
+        	modalEl.style.backgroundColor = '#fff';
+	        mui.overlay('on', modalEl);
+	    }
+	</script>
+	<!--END-SCRIPTS-->
 	`
 	}
 	static get properties() {
-    	return {
-    	    name: String
+	    return {
+	        name: String
 	    }
 	}
 }

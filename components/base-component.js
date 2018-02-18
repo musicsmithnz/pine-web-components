@@ -1,10 +1,7 @@
 import { Element as	PolymerElement } from "/node_modules/@polymer/polymer/polymer-element.js"
 
 export class ELEMENT_CLASS extends PolymerElement {
-    static get observers(){
-    
-    
-    }
+    static get observers(){}
 	static get template() {
     return `
         <!--STYLES-->
@@ -15,7 +12,7 @@ export class ELEMENT_CLASS extends PolymerElement {
 
         <!--SCRIPTS-->
         <!--END-SCRIPTS-->
-	`
+    `
 	}
 	static get properties() {
     	return {

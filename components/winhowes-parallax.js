@@ -1,10 +1,7 @@
 import { Element as	PolymerElement } from "/node_modules/@polymer/polymer/polymer-element.js"
 
 export class WinhowesParallax extends PolymerElement {
-    static get observers(){
-    
-    
-    }
+    static get observers(){}
 	static get template() {
     return `
         <!--STYLES-->
