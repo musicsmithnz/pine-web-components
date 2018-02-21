@@ -5,8 +5,12 @@ export class MdcGridList extends PolymerElement {
 	static get template(){
     return `
         <!--STYLES-->
-            <link href="//cdn.muicss.com/mui-0.9.35/css/mui.min.css" rel="stylesheet" type="text/css" />
-            <script src="//cdn.muicss.com/mui-0.9.35/js/mui.min.js"></script>
+            <link rel="stylesheet" href="https://ipfs.io/ipfs/QmQGgLSemG8rLUZYxiMViB7b7E1qFiyV3MKcHFCtm66qiW/material-components-web.min.css"></link>
+            <style>
+            * {
+                width: 100%;
+            }
+            </style>
         <!--END-STYLES-->
 
         <!--TEMPLATE-->

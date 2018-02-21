@@ -1,4 +1,3 @@
-
 import { Element as	PolymerElement } from "/node_modules/@polymer/polymer/polymer-element.js"
 
 export class MdcGridTile extends PolymerElement {
@@ -6,21 +5,22 @@ export class MdcGridTile extends PolymerElement {
 	static get template(){
     return `
         <!--STYLES-->
-            <link href="//cdn.muicss.com/mui-0.9.35/css/mui.min.css" rel="stylesheet" type="text/css" />
-            <script src="//cdn.muicss.com/mui-0.9.35/js/mui.min.js"></script>
+                    <link rel="stylesheet" href="https://ipfs.io/ipfs/QmQGgLSemG8rLUZYxiMViB7b7E1qFiyV3MKcHFCtm66qiW/material-components-web.min.css"></link>
+        <style>
+            .mdc-grid-tile {
+                width: 100%;
+            }
+        </style>
+
         <!--END-STYLES-->
 
         <!--TEMPLATE-->
-			<li class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4">
+			<li class="mdc-grid-tile">
 		    	<div class="mdc-grid-tile__primary">
-                    <slot name="image">
-                        <img src="https://www.polymer-project.org/images/logos/p-logo.png"></img>
-                    <slot>
+                    <slot name="primary"></slot>
 		    	</div>
                 <span class="mdc-grid-tile__secondary">
-                    <slot name="description">
-                        <h2 href="https://www.webcomponents.org/collection/Polymer/elements">Polymer Elements</h2>
-                    </slot>
+                    <slot name="secondary"></slot>
 			    </span>
                 <slot></slot>
 			</li>
