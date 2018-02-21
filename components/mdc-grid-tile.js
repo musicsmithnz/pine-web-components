@@ -22,6 +22,7 @@ export class MdcGridTile extends PolymerElement {
                         <h2 href="https://www.webcomponents.org/collection/Polymer/elements">Polymer Elements</h2>
                     </slot>
 			    </span>
+                <slot></slot>
 			</li>
         <!--END-TEMPLATE-->
 
