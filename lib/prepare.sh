@@ -8,4 +8,3 @@ git push
 npm version 1.0.${version_suffix} --allow-same-version
 
 ./update_component_list.sh
-npm publish
