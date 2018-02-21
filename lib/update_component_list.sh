@@ -25,5 +25,5 @@ for component in ${component_list[@]}; do
 done
 list=$list$'\n...'
 
-echo "$list" > polymer_web_components.yaml
-echo "$list"
+echo "$list" > ${HOME}/lib/polymer_web_components.yaml
+echo "polymer web components list saved..."
