@@ -26,3 +26,4 @@ done
 list=$list$'\n...'
 
 echo "$list" > polymer_web_components.yaml
+echo "$list"

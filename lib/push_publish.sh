@@ -2,7 +2,7 @@
 
 directory="$HOME/dev/polymer_web_components"
 
-version_suffix=$(date +%s | cut -c 3-8)
+version_suffix=$(date +%s | cut -c 3-7)
 
 git add . 
 git commit -m "${1}"
