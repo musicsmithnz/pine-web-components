@@ -1,6 +1,6 @@
 {
   "name": "polymer_web_components",
-  "version": "1.0.192328",
+  "version": "1.0.192333",
   "description": "a repo for storing web components",
   "main": "index.js",
   "scripts": {
