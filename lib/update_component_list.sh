@@ -14,14 +14,14 @@ ipfs_cdn_url="https://ipfs.io/ipfs/${ipfs_folder_hash}"
 unpkg_cdn_url="https://unpkg.com/polymer_web_components@${pwc_version}/components"
 github_cdn_url="https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components"
 
-
+list="---"
 for component in ${component_list[@]}; do
     begin=$'\n-'
-    name=$'\n\tname: '\"${component}\"
-    ipfs=$'\n\tipfs: '\"${ipfs_cdn_url}/${component}\"
-    unpkg=$'\n\tunpkg: '\"${unpkg_cdn_url}/${component}\"
-    github=$'\n\tgithub: '\"${github_cdn_url}/${component}\"
+    name=$'\n  name: '\"${component}\"
+    ipfs=$'\n  ipfs: '\"${ipfs_cdn_url}/${component}\"
+    unpkg=$'\n  unpkg: '\"${unpkg_cdn_url}/${component}\"
+    github=$'\n  github: '\"${github_cdn_url}/${component}\"
     list=$list$begin$name$ipfs$github$unpkg
 done
-
+list=$list$'\n...'
 echo "$list" > polymer_web_components.yaml
