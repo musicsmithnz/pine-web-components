@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "./lib/update_component_list.sh"
+    "prepare": "./lib/prepare.sh"
   },
   "repository": {
     "type": "git",
