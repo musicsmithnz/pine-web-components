@@ -24,4 +24,4 @@ for component in ${component_list[@]}; do
     list=$list$begin$name$ipfs$github$unpkg
 done
 
-echo "$list"
+echo "$list" > polymer_web_components.yaml
