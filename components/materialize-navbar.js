@@ -14,9 +14,14 @@ export class MaterializeNavbar extends PolymerElement {
 	        <nav>
             	<div class="nav-wrapper">
                 	<a href="#!" class="brand-logo">Logo</a>
+                    <ul class="left hide-on-med-and-down">
+                        <slot name="left"></slot>
+                	</ul>
+                    <ul class="center hide-on-med-and-down">
+                        <slot name="center"></slot>
+                	</ul>
                     <ul class="right hide-on-med-and-down">
-                        <li><a href="sass.html">Sass</a></li>
-                    	<li><a href="badges.html">Components</a></li>
+                        <slot name="right"></slot>
                 	</ul>
         	    </div>
 	        </nav>
