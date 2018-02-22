@@ -14,16 +14,35 @@ ipfs_cdn_url="https://ipfs.io/ipfs/${ipfs_folder_hash}"
 unpkg_cdn_url="https://unpkg.com/polymer_web_components@${pwc_version}/components"
 github_cdn_url="https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components"
 
-list="---"
+list="---"$'\n'
 for component in ${component_list[@]}; do
-    begin=$'\n-'
-    name=$'\n  name: '\"${component}\"
-    ipfs=$'\n  ipfs: '\"${ipfs_cdn_url}/${component}\"
-    unpkg=$'\n  unpkg: '\"${unpkg_cdn_url}/${component}\"
-    github=$'\n  github: '\"${github_cdn_url}/${component}\"
+    begin=$'-\n'
+    name=$'  name: '\"${component}\"$'\n'
+    ipfs=$'  ipfs: '\"${ipfs_cdn_url}/${component}\"$'\n'
+    unpkg=$'  unpkg: '\"${unpkg_cdn_url}/${component}\"$'\n'
+    github=$'  github: '\"${github_cdn_url}/${component}\"$'\n'
     list=$list$begin$name$ipfs$github$unpkg
 done
-list=$list$'\n...'
+list=$list$'...'
 
-echo "$list" > ${working_directory}/lib/polymer_web_components.yaml
+
+echo "$list" > ${HOME}/dev/spinec/lib/polymer_web_components.yaml
 echo "polymer web components list saved..."
+
+
+
+working_directory="$HOME/dev/spinec"
+resource_list='index.html'
+resources="---"
+for res in ${resource_list[@]}; do
+
+    ipfs_folder_hash=$(ipfs add -w ${working_directory}/${res} | sed '$!d'| cut -f2 -d' ')
+    ipfs_res_url="https://ipfs.io/ipfs/${ipfs_folder_hash}/${res}"
+    begin=$'-\n'
+    ipfs=$'  ipfs: '\"${ipfs_res_url}\"$'\n'
+    resources=$begin$ipfs
+done
+resources=$resources$'...'
+
+echo "$resources" > ${HOME}/dev/spinec/lib/resources.yaml
+echo "index.html saved to yaml"
