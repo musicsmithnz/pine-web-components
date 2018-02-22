@@ -27,6 +27,7 @@ list=$list$'...'
 
 
 echo "$list" > ${HOME}/dev/spinec/lib/polymer_web_components.yaml
+echo "$list" > ${HOME}/dev/polymer_web_components/lib/polymer_web_components.yaml
 echo "polymer web components list saved..."
 
 
