@@ -7,15 +7,14 @@ export class MaterializeNavbar extends PolymerElement {
 	<!--STYLES-->
     	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/css/materialize.min.css">
         <style>
-            .navbar-fixed, nav{
+            .theme-primary{
                 background: var(--theme-primary);
             }
         </style>
     <!--END-STYLES-->
 
 	<!--TEMPLATE-->	
-        <div class="navbar-fixed">
-	        <nav>
+	        <nav class="navbar-fixed theme-primary">
             	<div class="nav-wrapper">
                 	<a href="#!" class="brand-logo">Logo</a>
                     <ul class="left hide-on-med-and-down">
@@ -29,7 +28,6 @@ export class MaterializeNavbar extends PolymerElement {
                 	</ul>
         	    </div>
 	        </nav>
-		</div>
 	<!--END-TEMPLATE-->
 
 	<!--SCRIPTS-->

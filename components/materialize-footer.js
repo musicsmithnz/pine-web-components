@@ -8,17 +8,17 @@ export class MaterializeFooter extends PolymerElement {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/css/materialize.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/js/materialize.min.js"></script>
         <style>
-        .primary{
-            background: var(--theme-primary, red);
+        .theme-primary{
+            background: var(--theme-primary);
         }
-        .primary-lighten{
-            background: var(--background-color-lighten);
+        .theme-primary-light{
+            background: var(--theme-primary-light);
         }
         </style>
     <!--END-STYLES-->
 
 	<!--TEMPLATE-->
-	    <footer class="page-footer primary">
+	    <footer class="page-footer theme-primary">
 	        <div class="container">
 	            <div class="row">
 	                <div class="col l6 s12">
@@ -36,7 +36,7 @@ export class MaterializeFooter extends PolymerElement {
 	                </div>
 	            </div>
 	        </div>
-	        <div class="footer-copyright">
+	        <div class="footer-copyright theme-primary-light">
 	            <div class="container">
 	                © 2018 Copyright Text
 	                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
