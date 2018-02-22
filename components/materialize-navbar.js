@@ -5,9 +5,13 @@ export class MaterializeNavbar extends PolymerElement {
 	static get template(){
 	return `
 	<!--STYLES-->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/css/materialize.min.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/js/materialize.min.js"></script>
-	<!--END-STYLES-->
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/css/materialize.min.css">
+        <style>
+            .navbar-fixed, nav{
+                background: var(--theme-primary);
+            }
+        </style>
+    <!--END-STYLES-->
 
 	<!--TEMPLATE-->	
         <div class="navbar-fixed">
@@ -29,13 +33,14 @@ export class MaterializeNavbar extends PolymerElement {
 	<!--END-TEMPLATE-->
 
 	<!--SCRIPTS-->
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/js/materialize.min.js"></script>
 	<!--END-SCRIPTS-->
 	`
 	}
 	static get properties() {
-	return {
-	name: String
-	}
+    	return {
+	        name: String
+	    }
 	}
 }
 
