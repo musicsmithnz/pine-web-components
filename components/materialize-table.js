@@ -18,7 +18,7 @@ export class MaterializeTable extends PolymerElement {
     <!--END-STYLES-->
 
 	<!--TEMPLATE-->
-          <table>
+          <table class="striped highlight responsive-table">
 		    <thead>
 	            <tr>
 		            <th>Name</th>
