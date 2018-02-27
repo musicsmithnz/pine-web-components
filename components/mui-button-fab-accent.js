@@ -1,4 +1,4 @@
-import { Element as PolymerElement } from "/musicsmithnz/polymer_web_components/master/node_modules/@polymer/polymer/polymer-element.js"
+import { Element as PolymerElement } from "/musicsmithnz/polymer_web_components/master./node_modules/@polymer/polymer/polymer-element.js"
 
 export class MuiButtonFabAccent extends PolymerElement {
 	static get observers(){}
