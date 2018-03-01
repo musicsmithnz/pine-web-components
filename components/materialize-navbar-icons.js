@@ -7,10 +7,13 @@ export class MaterializeNavbarIcons extends PolymerElement {
 	<!--STYLES-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/css/materialize.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/js/materialize.min.js"></script>
-	<!--END-STYLES-->
+        nav.theme-primary {
+          background: var(--theme-primary, #4B5B9B);
+        }
+    <!--END-STYLES-->
 
 	<!--TEMPLATE-->
-	    <nav>
+	    <nav class="theme-primary">
 	        <div class="nav-wrapper">
 	            <a href="#!" class="brand-logo">Logo</a>
 	            <ul class="right hide-on-med-and-down">
