@@ -1,12 +1,12 @@
-import { Element as	PolymerElement } from "/node_modules/@polymer/polymer/polymer-element.js"
+import { Element as	PolymerElement } from "../../node_modules/@polymer/polymer/polymer-element.js"
 
 export class MaterializeCardImage extends PolymerElement {
 	static get observers(){}
 	static get template() {
 	return `
 		<!--STYLES-->
-			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/css/materialize.min.css">
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/js/materialize.min.js"></script>
+			<link rel="stylesheet" href="https://ipfs.io/ipfs/QmZjRLPbC5TRshn1zmJQU7KWVj125y7xx68GS7vkAwbWdv/materialize.min.css">
+            <script src="https://ipfs.io/ipfs/QmZjRLPbC5TRshn1zmJQU7KWVj125y7xx68GS7vkAwbWdv/materialize.min.js"></script>
             <style>
             .card {
                 height: 25em;

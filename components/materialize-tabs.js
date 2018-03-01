@@ -1,11 +1,11 @@
-import { Element as	PolymerElement } from "/node_modules/@polymer/polymer/polymer-element.js"
+import { Element as	PolymerElement } from "../../node_modules/@polymer/polymer/polymer-element.js"
 
 export class MaterializeTabs extends PolymerElement {
 	static get observers(){}
 	static get template(){
 	return `
 	<!--STYLES-->
-    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/css/materialize.min.css">
+    	<link rel="stylesheet" href="https://ipfs.io/ipfs/QmZjRLPbC5TRshn1zmJQU7KWVj125y7xx68GS7vkAwbWdv/materialize.min.css">
         <style>
             .nav-content, .tabs, .nav-extended{
                 background: var(--theme-primary, blue);
@@ -26,7 +26,7 @@ export class MaterializeTabs extends PolymerElement {
     <!--END-TEMPLATE-->
 
 	<!--SCRIPTS-->
-	    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/js/materialize.min.js"></script>
+	    <script src="https://ipfs.io/ipfs/QmZjRLPbC5TRshn1zmJQU7KWVj125y7xx68GS7vkAwbWdv/materialize.min.js"></script>
 	<!--END-SCRIPTS-->
 	`
 	}
