@@ -9,10 +9,7 @@ export class MaterializeFooter extends PolymerElement {
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/js/materialize.min.js"></script>
         <style>
         .theme-primary{
-            background: var(--theme-primary);
-        }
-        .theme-primary-light{
-            background: var(--theme-primary-light);
+            background: var(--theme-primary, #4B5B9B);
         }
         </style>
     <!--END-STYLES-->

@@ -7,14 +7,14 @@ export class MaterializeTabs extends PolymerElement {
 	<!--STYLES-->
     	<link rel="stylesheet" href="https://ipfs.io/ipfs/QmZjRLPbC5TRshn1zmJQU7KWVj125y7xx68GS7vkAwbWdv/materialize.min.css">
         <style>
-            .nav-content, .tabs, .nav-extended{
-                background: var(--theme-primary, blue);
+            nav.theme-primary {
+                background: var(--theme-primary, #4B5B9B);
             }
         </style>
     <!--END-STYLES-->
 
 	<!--TEMPLATE-->	
-        <nav class="nav-extended">
+        <nav class="nav-extended theme-primary">
             <div class="nav-content">
                 <ul class="tabs tabs-transparent">
                     <li class="tab"><a class="active" href="[[link1]]">[[tab1]]</a></li>
