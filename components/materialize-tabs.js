@@ -5,7 +5,7 @@ export class MaterializeTabs extends PolymerElement {
 	static get template(){
 	return `
 	<!--STYLES-->
-    	<link rel="stylesheet" href="https://ipfs.io/ipfs/QmZjRLPbC5TRshn1zmJQU7KWVj125y7xx68GS7vkAwbWdv/materialize.min.css">
+    	<link rel="stylesheet" href="https://ipfs.io/ipfs/QmZwDkCGHCkoAzWa73vK4xV81WxS61P3JVNPhx4occJ79x/materialize.min.css">
         <style>
             nav.theme-primary {
                 background: var(--theme-primary, #4B5B9B);
@@ -26,7 +26,7 @@ export class MaterializeTabs extends PolymerElement {
     <!--END-TEMPLATE-->
 
 	<!--SCRIPTS-->
-	    <script src="https://ipfs.io/ipfs/QmZjRLPbC5TRshn1zmJQU7KWVj125y7xx68GS7vkAwbWdv/materialize.min.js"></script>
+	    <script href="https://ipfs.io/ipfs/QmZwDkCGHCkoAzWa73vK4xV81WxS61P3JVNPhx4occJ79x/materialize.min.js"></script>
 	<!--END-SCRIPTS-->
 	`
 	}
