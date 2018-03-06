@@ -10,18 +10,26 @@ export class MaterializeColumn extends PolymerElement {
         <style>
         .theme-primary{
             background: var(--theme-primary, #4B5B9B);
-        
-        .container {
-            width: 100%;
-            max-width: 70em;
+        }
+        section.main-column{
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        section.main-column .container{
+            max-width: 60em;
+            flex: 1 1 auto;
         }
         </style>
     <!--END-STYLES-->
 
 	<!--TEMPLATE-->
-	        <div class="container card card-panel hoverable">
+        <section class="main-column">
+	        <div class="container card card-panel">
                 <slot></slot>
-	        </div>
+            </div>
+        </section>
 	<!--END-TEMPLATE-->
 
 	<!--SCRIPTS-->
