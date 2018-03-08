@@ -1,49 +1,66 @@
-const webpack = require('webpack');
-const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
+const CleanWebpackPlugin = require('clean-webpack-plugin')
+const webpack = require('webpack')
+const path = require('path')
+const glob = require('glob')
 
 const PATHS = {
-    src: path.join(__dirname, '../src'),
-    src_html: path.join(__dirname, '../src/html'),
-    src_css: path.join(__dirname, '../src/css'),
-    src_js: path.join(__dirname, '../src/js'),
-    src_images: path.join(__dirname, '../src/images'),
-    dist: path.join(__dirname, '../dist')
+    src: path.join(__dirname, '../src/'),
+    dist: path.join(__dirname, '../dist/')
 };
 
+console.log(PATHS.src)
+var pages = glob.sync( path.join( PATHS.src, '*'))
+var page_files={}
+for ( page in pages ){
+    elem_css = page * 2
+    elem_js = page * 2 + 1
+    elem_css_name = pages[page] + ".css"
+    elem_js_name = pages[page] + ".js"
+    page_files[elem_css_name]= elem_css_name
+    page_files[elem_js_name]= elem_js_name
+    console.log(page_files[elem_css])
+    console.log(page_files[elem_js])
+} 
+pages = JSON.stringify(pages, null, 4);
+page_files = JSON.stringify(page_files, null, 4);
+console.log("pages are: " + pages)
+console.log("pages files are: " + page_files)
 module.exports = {
     context: __dirname,
     mode: 'development',
     entry: {
-        main: path.join(PATHS.src_js,'main.js')
+        home: path.join(PATHS.src,'/home/components.js')
     },
     output: {
         path: path.resolve(PATHS.dist),
-        filename: '[name].bundle.js'
+        filename: '[name].bundle.[hash].js'
     },
     resolve: {
         extensions: ['.js', '.jsm']
     },
-    devtool: 'eval',
+    devtool: 'source-map',
     module: {
         rules: [
-            {
+            /*{
                 test: /\.js$/,
                 exclude: /(node_modules)/,
                 use: {
                     loader: 'babel-loader',
                     options: {
                         presets: [[
-                            '@babel/preset-env',{
+                            'env',{
                                 debug: false,
                                 modules: false,
                                 targets: {
-                                    browsers: ['> 21%']
+                                    browsers: ['> 20%']
                                 }
                             }
                         ]]
                     }
                 }   
-            },
+            },*/
             {
                 test: /\.html$/,
                 exclude: /(node_modules)/,
@@ -103,4 +120,36 @@ module.exports = {
             }
         ]
     }
+    ,
+    plugins: [
+        new CleanWebpackPlugin(
+            PATHS.dist, 
+            {
+                root: path.resolve(__dirname, '..'),
+                verbose: true, 
+            }
+        ),
+        new HtmlWebpackPlugin({
+            hash: true,
+            inject: true,
+            template: path.join( PATHS.src, 'home/index.html')
+        }),
+            /*
+        new CopyWebpackPlugin([
+            {
+                from: path.resolve(__dirname, '../src/static/'),
+                to: '.',
+                ignore: ['.*']
+            },
+            {
+                from: path.resolve( PATHS.src, 'home/*'),
+                to: path.resolve( PATHS.dist, ''),
+                flatten: true,
+            }
+        ]),
+        */
+        new webpack.HotModuleReplacementPlugin()
+    ]
+    /*
+        */
 };

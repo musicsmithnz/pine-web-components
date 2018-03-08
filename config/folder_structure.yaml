@@ -1,7 +1,0 @@
-source_html: src/html
-source_js: src/js
-source_css: src/css
-source_images: src/images
-
-distributed: dist
-

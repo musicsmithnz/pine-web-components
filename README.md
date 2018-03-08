@@ -1,2 +1,2 @@
 # polymer_web_components
-a repo for storing and developing web components
+A repository for PINE web components with a demo
