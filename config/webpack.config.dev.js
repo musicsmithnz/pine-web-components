@@ -10,32 +10,32 @@ const PATHS = {
     dist: path.join(__dirname, '../dist/')
 };
 
-console.log(PATHS.src)
-var pages = glob.sync( path.join( PATHS.src, '*'))
-var page_files={}
-for ( page in pages ){
-    elem_css = page * 2
-    elem_js = page * 2 + 1
-    elem_css_name = pages[page] + ".css"
-    elem_js_name = pages[page] + ".js"
-    page_files[elem_css_name]= elem_css_name
-    page_files[elem_js_name]= elem_js_name
-    console.log(page_files[elem_css])
-    console.log(page_files[elem_js])
-} 
-pages = JSON.stringify(pages, null, 4);
-page_files = JSON.stringify(page_files, null, 4);
-console.log("pages are: " + pages)
-console.log("pages files are: " + page_files)
+var bundle_ext_list=['.js','.css','.sass','.scss','.pug']
+var bundle_files=[]
+for ( ext in bundle_ext_list){
+
+    var files = glob.sync(
+        path.join( PATHS.src, '*' + bundle_ext_list[ext])
+    )
+    bundle_files = bundle_files.concat(files)
+
+}
+
+bundle_files = JSON.stringify( bundle_files, null, 4);
+
+console.log("bundle files are: " + bundle_files)
+
+
+
 module.exports = {
     context: __dirname,
     mode: 'development',
     entry: {
-        home: path.join(PATHS.src,'/home/components.js')
+        js : path.join(PATHS.src,'/app.js')
     },
     output: {
         path: path.resolve(PATHS.dist),
-        filename: '[name].bundle.[hash].js'
+        filename: 'app.[hash].[name]'
     },
     resolve: {
         extensions: ['.js', '.jsm']
@@ -62,6 +62,21 @@ module.exports = {
                 }   
             },*/
             {
+                test: /\.pug$/,
+                exclude: /(node_modules)/,
+                use: [
+                    {
+                        loader: 'html-loader'
+                    },
+                    {
+                        loader: 'pug-html-loader',
+                        options: {
+                            data: {} // set of data to pass to the pug render.
+                        }
+                    }
+                ]
+            },
+            {
                 test: /\.html$/,
                 exclude: /(node_modules)/,
                 use: {
@@ -79,6 +94,18 @@ module.exports = {
                         },
                     },
                 ],
+            },
+            {
+                test: /\.css$/,
+                exclude: /node_modules/,
+                use: [
+                    {
+                        loader: 'style-loader'
+                    },
+                    {
+                        loader: 'css-loader'
+                    }
+                ]
             },
             {
                 test: /.less$/,
@@ -132,7 +159,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             hash: true,
             inject: true,
-            template: path.join( PATHS.src, 'home/index.html')
+            template: path.join( PATHS.src, '/app.pug')
         }),
             /*
         new CopyWebpackPlugin([

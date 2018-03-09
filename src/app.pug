@@ -1,0 +1,20 @@
+doctype html
+html
+	head
+		meta(charset='utf-8')
+		meta(name='viewport', content='width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes')
+		title SPINE Components
+		meta(name='description', content='Using Storj, Polymer, Ipfs, Node, and Express to create Modular Decentralized Web Apps quickly')
+		script(src='../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js')
+		script(src='../node_modules/browser-es-module-loader/dist/babel-browser-build.js')
+		script(src='../node_modules/browser-es-module-loader/dist/browser-es-module-loader.js')
+	body
+		header
+			materialize-navbar( right_tab_1='libraries', right_link_1='#libraries', right_tab_2='about', right_link-2='#about', right_tab_3='contribute', right_link-3='#contribute' )
+		main
+			materialize-column
+				paper-button( raised ) polymer paper button!
+				section#tile-section
+					materialize-panel
+					materialize-panel
+		materialize-footer
