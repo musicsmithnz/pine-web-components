@@ -1,0 +1,1 @@
+mui-table-bordered/mui-table-bordered.js

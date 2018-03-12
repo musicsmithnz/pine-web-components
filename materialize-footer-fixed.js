@@ -1,0 +1,1 @@
+materialize-footer-fixed/materialize-footer-fixed.js

@@ -1,0 +1,5 @@
+import '@polymer/app-pouchdb/app-pouchdb.js'
+import '@polymer/app-storage/app-storage.js'
+import '@polymer/iron-ajax/iron-ajax.js'
+import '@polymer/iron-jsonp-libary/iron-jsonp-libary.js'
+import '@polymer/polymerfire/polymerfire.js'

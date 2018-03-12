@@ -1,0 +1,6 @@
+import '@polymer/paper-input-elements/paper-input-elements.js'
+import '@polymer/paper-overlay-elements/paper-overlay-elements.js'
+import '@polymer/paper-ui-elements/paper-ui-elements.js'
+import '@polymer/paper-behaviors/paper-behaviors.js'
+import '@polymer/paper-ripple/paper-ripple.js'
+import '@polymer/paper-styles/paper-styles.js'
