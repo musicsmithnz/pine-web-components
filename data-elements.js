@@ -1,5 +1,5 @@
-import './node_modules/@polymer/app-pouchdb/app-pouchdb.js'
-import './node_modules/@polymer/app-storage/app-storage.js'
-import './node_modules/@polymer/iron-ajax/iron-ajax.js'
-import './node_modules/@polymer/iron-jsonp-libary/iron-jsonp-libary.js'
-import './node_modules/@polymer/polymerfire/polymerfire.js'
+import '../../@polymer/iron-ajax/iron-ajax.js'
+//import '../../@polymer/iron-jsonp-libary/iron-jsonp-libary.js'
+import '../../@polymer/app-storage/app-storage-behavior.js'
+import '../../@polymer/app-storage/app-network-status-behavior.js'
+

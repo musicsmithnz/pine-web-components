@@ -1,1 +1,1 @@
-import './node_modules/@polymer/platinum-sw/platinum-sw.js'
+import '../../@polymer/platinum-sw/platinum-sw-elements.js'
