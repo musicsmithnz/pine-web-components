@@ -1,4 +1,4 @@
-import { Element as	PolymerElement } from "@polymer/polymer/polymer-element"
+import { PolymerElement } from "@polymer/polymer/polymer-element"
 import * as template_string from "./component_assets/mui-dropdown-left/mui-dropdown-left.html"
 
 export class MuiDropdownLeft extends PolymerElement {

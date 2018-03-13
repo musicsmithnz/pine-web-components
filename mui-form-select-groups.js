@@ -1,4 +1,4 @@
-import { Element as	PolymerElement } from "@polymer/polymer/polymer-element"
+import { PolymerElement } from "@polymer/polymer/polymer-element"
 import * as template_string from "./component_assets/mui-form-select-groups/mui-form-select-groups.html"
 
 export class MuiFormSelectGroups extends PolymerElement {

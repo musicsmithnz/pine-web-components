@@ -1,4 +1,4 @@
-import { Element as	PolymerElement } from "@polymer/polymer/polymer-element"
+import { PolymerElement } from "@polymer/polymer/polymer-element"
 import * as template_string from "./component_assets/materialize-footer-fixed/materialize-footer-fixed.html"
 
 export class MaterializeFooterFixed extends PolymerElement {
