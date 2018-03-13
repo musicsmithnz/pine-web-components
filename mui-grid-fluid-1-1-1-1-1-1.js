@@ -1,4 +1,4 @@
-import { PolymerElement } from "@polymer/polymer/polymer-element"
+import { Element as PolymerElement } from "@polymer/polymer/polymer-element"
 import * as template_string from "./component_assets/mui-grid-fluid-1-1-1-1-1-1/mui-grid-fluid-1-1-1-1-1-1.html"
 
 export class MuiGridFluid111111 extends PolymerElement {

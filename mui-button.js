@@ -1,4 +1,4 @@
-import { PolymerElement } from "@polymer/polymer/polymer-element"
+import { Element as PolymerElement } from "@polymer/polymer/polymer-element"
 import * as template_string from "./component_assets/mui-button/mui-button.html"
 
 export class MuiButton extends PolymerElement {

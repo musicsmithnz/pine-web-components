@@ -1,4 +1,4 @@
-import { PolymerElement } from "@polymer/polymer/polymer-element"
+import { Element as PolymerElement } from "@polymer/polymer/polymer-element"
 import * as template_string from "./component_assets/mui-form-radio/mui-form-radio.html"
 
 export class MuiFormRadio extends PolymerElement {

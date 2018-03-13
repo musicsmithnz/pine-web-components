@@ -1,4 +1,4 @@
-import { PolymerElement } from "@polymer/polymer/polymer-element"
+import { Element as PolymerElement } from "@polymer/polymer/polymer-element"
 import * as template_string from "./component_assets/materialize-navbar-center-logo/materialize-navbar-center-logo.html"
 
 export class MaterializeNavbarCenterLogo extends PolymerElement {

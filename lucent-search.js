@@ -1,5 +1,5 @@
-import { PolymerElement } from '@polymer/polymer/polymer-element.js'
-import * as template_string from './lucent-search.html'
+import { Element as PolymerElement } from '@polymer/polymer/polymer-element.js'
+import * as template_string from './component_assets/lucent-search/lucent-search.html'
 
 export class LucentSearch extends PolymerElement {
 
