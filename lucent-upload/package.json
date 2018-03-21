@@ -1,0 +1,110 @@
+{
+  "name": "lucent-upload",
+  "version": "0.0.1",
+  "description": "lucent-upload",
+  "author": "",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "PINE",
+    "Web Components",
+    "Polymer",
+    "IPFS",
+    "Node",
+    "Express",
+    "template"
+  ],
+  "devDependencies": {
+    "@babel/core": "*7.0.0-beta.40",
+    "@babel/preset-env": "*7.0.0-beta.40",
+    "@polymer/polymer": "^3.0.0-pre.11",
+    "@webcomponents/webcomponentsjs": "^1.1.0",
+    "babel-loader": "*7.1.4",
+    "eslint": "^4.1.0",
+    "eslint-config-prettier": "^2.4.0",
+    "eslint-config-xo": "^0.18.2",
+    "eslint-plugin-prettier": "^2.2.0",
+    "express": "^4.16.2",
+    "html-webpack-plugin": "^3.0.6",
+    "husky": "^0.14.3",
+    "jest": "^22.0.6",
+    "js-yaml": "^3.10.0",
+    "lint-staged": "^4.2.1",
+    "nsp": "^2.6.3",
+    "prettier": "^1.7.0",
+    "request": "^2.83.0",
+    "underscore": "^1.8.3",
+    "underscore.string": "^3.3.4",
+    "webpack": "^4.1.0",
+    "webpack-cli": "^2.0.10",
+    "yeoman-assert": "^3.1.0",
+    "yeoman-test": "^1.7.0",
+    "yo": "^2.0.1"
+  },
+  "scripts": {
+    "build:dev": "webpack --mode development --config config/webpack.config.dev.js",
+    "build:prod": "webpack --mode production --config config/webpack.config.prod.js",
+    "stats": "webpack --profile --json > stats.json",
+    "prepublish": "nsp check",
+    "pretest": "eslint .",
+    "precommit": "lint-staged",
+    "test": "jest"
+  },
+  "bin": {
+    "spinec": "./lib/pine_cli/pinec.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@polymer/paper-progress": "^3.0.0-pre.11",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "^0.28.10",
+    "file-loader": "^1.1.11",
+    "fs": "0.0.1-security",
+    "fs-extra": "^5.0.0",
+    "html-loader": "^0.5.5",
+    "image-webpack-loader": "^4.1.0",
+    "style-loader": "^0.20.3"
+  },
+  "directories": {
+    "docs": "docs",
+    "lib": "lib",
+    "resources": "resources"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.json": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "xo",
+      "prettier"
+    ],
+    "env": {
+      "jest": true,
+      "node": true
+    },
+    "rules": {
+      "prettier/prettier": [
+        "error",
+        {
+          "singleQuote": true,
+          "printWidth": 90
+        }
+      ]
+    },
+    "plugins": [
+      "prettier"
+    ]
+  }
+}

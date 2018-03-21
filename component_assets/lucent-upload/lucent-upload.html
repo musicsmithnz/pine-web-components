@@ -1,0 +1,51 @@
+<div>
+    <paper-button id="button" icon="file-upload-icons:file-upload" class="blue" on-click="_fileClick" alt="{{paperButtonAlt}}" title="{{paperButtonTitle}}">
+		<content></content>
+	</paper-button>
+    <div id='UploadBorder' hidden$="{{hideFileList}}">
+	   	<div id="dropArea" hidden$="{{!_shownDropText}}">{{dropText}}</div>
+	    <template is="dom-repeat" items="{{files}}">
+        	<div class="file">
+           		<div class="name">
+               		<span>{{item.name}}</span>
+              		<div class="commands">
+                        <iron-icon 
+                            icon="file-upload-icons:autorenew" 
+                            title="{{retryText}}" 
+                            on-click="_retryUpload" 
+                            hidden$="{{!item.error}}">
+                        </iron-icon>
+                        <iron-icon 
+                            icon="file-upload-icons:cancel" 
+                            title="{{removeText}}" 
+                            on-click="_cancelUpload" 
+                            hidden$="{{item.complete}}">
+                        </iron-icon>
+                        <iron-icon 
+                            icon="file-upload-icons:check-circle" 
+                            title="{{successText}}" 
+                            hidden$="{{!item.complete}}">
+                        </iron-icon>
+               		</div>
+           		</div>
+                <div 
+                    class="error" 
+                    hidden$="{{!item.error}}">
+                    {{errorText}}
+                </div>
+                <div 
+                    class="progress-bar" 
+                    hidden$={{progressHidden}}>
+                    <paper-progress 
+                        value$="{{item.progress}}" 
+                        error$="{{item.error}}">
+                    </paper-progress>
+               	</div>
+            </div>
+
+        </template>
+    </div>
+</div>
+<input type="file" id="fileInput" on-change="_fileChange" hidden multiple="{{multi}}" accept="{{accept}}">
+		<!--<paper-toast id="toastSuccess" text="File uploaded successfully!"></paper-toast>
+		<paper-toast id="toastFail" text="Error uploading file!"></paper-toast>-->
