@@ -1,0 +1,362 @@
+---
+-
+  name: "base-component.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/base-component.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/base-component.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/base-component.js"
+-
+  name: "lucent-parallax.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/lucent-parallax.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/lucent-parallax.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/lucent-parallax.js"
+-
+  name: "materialize-card-image.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/materialize-card-image.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/materialize-card-image.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/materialize-card-image.js"
+-
+  name: "materialize-footer-fixed.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/materialize-footer-fixed.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/materialize-footer-fixed.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/materialize-footer-fixed.js"
+-
+  name: "materialize-footer.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/materialize-footer.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/materialize-footer.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/materialize-footer.js"
+-
+  name: "materialize-navbar-center-logo.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/materialize-navbar-center-logo.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/materialize-navbar-center-logo.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/materialize-navbar-center-logo.js"
+-
+  name: "materialize-navbar-collapse.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/materialize-navbar-collapse.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/materialize-navbar-collapse.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/materialize-navbar-collapse.js"
+-
+  name: "materialize-navbar-fixed.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/materialize-navbar-fixed.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/materialize-navbar-fixed.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/materialize-navbar-fixed.js"
+-
+  name: "materialize-navbar-icons.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/materialize-navbar-icons.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/materialize-navbar-icons.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/materialize-navbar-icons.js"
+-
+  name: "materialize-navbar.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/materialize-navbar.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/materialize-navbar.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/materialize-navbar.js"
+-
+  name: "materialize-navbar-left.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/materialize-navbar-left.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/materialize-navbar-left.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/materialize-navbar-left.js"
+-
+  name: "materialize-navbar-right.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/materialize-navbar-right.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/materialize-navbar-right.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/materialize-navbar-right.js"
+-
+  name: "materialize-table.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/materialize-table.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/materialize-table.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/materialize-table.js"
+-
+  name: "materialize-tabs.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/materialize-tabs.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/materialize-tabs.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/materialize-tabs.js"
+-
+  name: "mdb-navbar.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mdb-navbar.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mdb-navbar.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mdb-navbar.js"
+-
+  name: "mdc-grid-list.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mdc-grid-list.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mdc-grid-list.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mdc-grid-list.js"
+-
+  name: "mdc-grid-tile.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mdc-grid-tile.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mdc-grid-tile.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mdc-grid-tile.js"
+-
+  name: "mdc-toolbar-fixed.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mdc-toolbar-fixed.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mdc-toolbar-fixed.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mdc-toolbar-fixed.js"
+-
+  name: "mdc-toolbar.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mdc-toolbar.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mdc-toolbar.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mdc-toolbar.js"
+-
+  name: "mdc-toolbar-nav.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mdc-toolbar-nav.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mdc-toolbar-nav.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mdc-toolbar-nav.js"
+-
+  name: "mui-appbar.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-appbar.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-appbar.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-appbar.js"
+-
+  name: "mui-button-accent-disabled.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-button-accent-disabled.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-button-accent-disabled.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-button-accent-disabled.js"
+-
+  name: "mui-button-accent.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-button-accent.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-button-accent.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-button-accent.js"
+-
+  name: "mui-button-danger-disabled.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-button-danger-disabled.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-button-danger-disabled.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-button-danger-disabled.js"
+-
+  name: "mui-button-danger.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-button-danger.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-button-danger.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-button-danger.js"
+-
+  name: "mui-button-disabled.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-button-disabled.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-button-disabled.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-button-disabled.js"
+-
+  name: "mui-button-fab-accent.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-button-fab-accent.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-button-fab-accent.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-button-fab-accent.js"
+-
+  name: "mui-button-fab-primary.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-button-fab-primary.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-button-fab-primary.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-button-fab-primary.js"
+-
+  name: "mui-button.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-button.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-button.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-button.js"
+-
+  name: "mui-button-primary-disabled.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-button-primary-disabled.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-button-primary-disabled.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-button-primary-disabled.js"
+-
+  name: "mui-button-primary.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-button-primary.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-button-primary.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-button-primary.js"
+-
+  name: "mui-column.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-column.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-column.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-column.js"
+-
+  name: "mui-container-fluid.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-container-fluid.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-container-fluid.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-container-fluid.js"
+-
+  name: "mui-container.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-container.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-container.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-container.js"
+-
+  name: "mui-divider-bottom.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-divider-bottom.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-divider-bottom.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-divider-bottom.js"
+-
+  name: "mui-divider.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-divider.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-divider.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-divider.js"
+-
+  name: "mui-divider-left.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-divider-left.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-divider-left.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-divider-left.js"
+-
+  name: "mui-divider-right.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-divider-right.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-divider-right.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-divider-right.js"
+-
+  name: "mui-divider-top.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-divider-top.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-divider-top.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-divider-top.js"
+-
+  name: "mui-dropdown-left.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-dropdown-left.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-dropdown-left.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-dropdown-left.js"
+-
+  name: "mui-dropdown-right.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-dropdown-right.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-dropdown-right.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-dropdown-right.js"
+-
+  name: "mui-form-checkbox.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-form-checkbox.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-form-checkbox.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-form-checkbox.js"
+-
+  name: "mui-form-fixed.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-form-fixed.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-form-fixed.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-form-fixed.js"
+-
+  name: "mui-form-floating.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-form-floating.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-form-floating.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-form-floating.js"
+-
+  name: "mui-form-inline.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-form-inline.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-form-inline.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-form-inline.js"
+-
+  name: "mui-form-placeholder.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-form-placeholder.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-form-placeholder.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-form-placeholder.js"
+-
+  name: "mui-form-radio.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-form-radio.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-form-radio.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-form-radio.js"
+-
+  name: "mui-form-select-groups.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-form-select-groups.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-form-select-groups.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-form-select-groups.js"
+-
+  name: "mui-form-select.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-form-select.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-form-select.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-form-select.js"
+-
+  name: "mui-form-validate.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-form-validate.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-form-validate.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-form-validate.js"
+-
+  name: "mui-grid-fluid-1-1-1-1-1-1.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-grid-fluid-1-1-1-1-1-1.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-grid-fluid-1-1-1-1-1-1.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-grid-fluid-1-1-1-1-1-1.js"
+-
+  name: "mui-grid-fluid-1-1-1-1.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-grid-fluid-1-1-1-1.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-grid-fluid-1-1-1-1.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-grid-fluid-1-1-1-1.js"
+-
+  name: "mui-grid-fluid-1-1-1.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-grid-fluid-1-1-1.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-grid-fluid-1-1-1.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-grid-fluid-1-1-1.js"
+-
+  name: "mui-grid-fluid-1-1.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-grid-fluid-1-1.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-grid-fluid-1-1.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-grid-fluid-1-1.js"
+-
+  name: "mui-grid-fluid-1-2-1.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-grid-fluid-1-2-1.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-grid-fluid-1-2-1.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-grid-fluid-1-2-1.js"
+-
+  name: "mui-grid-fluid-1-2.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-grid-fluid-1-2.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-grid-fluid-1-2.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-grid-fluid-1-2.js"
+-
+  name: "mui-grid-fluid-12x1.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-grid-fluid-12x1.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-grid-fluid-12x1.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-grid-fluid-12x1.js"
+-
+  name: "mui-grid-fluid-2-1.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-grid-fluid-2-1.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-grid-fluid-2-1.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-grid-fluid-2-1.js"
+-
+  name: "mui-grid-fluid-2x1.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-grid-fluid-2x1.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-grid-fluid-2x1.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-grid-fluid-2x1.js"
+-
+  name: "mui-grid-fluid-3x1.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-grid-fluid-3x1.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-grid-fluid-3x1.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-grid-fluid-3x1.js"
+-
+  name: "mui-grid-fluid-4x1.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-grid-fluid-4x1.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-grid-fluid-4x1.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-grid-fluid-4x1.js"
+-
+  name: "mui-grid-fluid-6x1.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-grid-fluid-6x1.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-grid-fluid-6x1.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-grid-fluid-6x1.js"
+-
+  name: "mui-grid-fluid-6x2.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-grid-fluid-6x2.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-grid-fluid-6x2.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-grid-fluid-6x2.js"
+-
+  name: "mui-overlay.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-overlay.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-overlay.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-overlay.js"
+-
+  name: "mui-overlay-modal.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-overlay-modal.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-overlay-modal.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-overlay-modal.js"
+-
+  name: "mui-panel.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-panel.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-panel.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-panel.js"
+-
+  name: "mui-table-bordered.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-table-bordered.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-table-bordered.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-table-bordered.js"
+-
+  name: "mui-table.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-table.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-table.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-table.js"
+-
+  name: "mui-tabs.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-tabs.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-tabs.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-tabs.js"
+-
+  name: "mui-tabs-justified.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/mui-tabs-justified.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/mui-tabs-justified.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/mui-tabs-justified.js"
+-
+  name: "polymervis-file-drop-zone.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/polymervis-file-drop-zone.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/polymervis-file-drop-zone.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/polymervis-file-drop-zone.js"
+-
+  name: "winhowes-parallax.js"
+  ipfs: "https://ipfs.io/ipfs/QmTghLVE3qpdfh8Nkxaed84SfhT4x5om8UfpYLYe9Ar1tG/winhowes-parallax.js"
+  github: "https://cdn.rawgit.com/musicsmithnz/polymer_web_components/master/components/winhowes-parallax.js"
+  unpkg: "https://unpkg.com/polymer_web_components@1.0.193387/components/winhowes-parallax.js"
+...

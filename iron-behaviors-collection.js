@@ -1,0 +1,6 @@
+import '../../@polymer/iron-menu-behavior/iron-menu-behavior.js'
+import '../../@polymer/iron-overlay-behavior/iron-overlay-behavior.js'
+import '../../@polymer/iron-range-behavior/iron-range-behavior.js'
+import '../../@polymer/iron-resizable-behavior/iron-resizable-behavior.js'
+import '../../@polymer/iron-scroll-target-behavior/iron-scroll-target-behavior.js'
+import '../../@polymer/iron-scroll-threshold/iron-scroll-threshold.js'

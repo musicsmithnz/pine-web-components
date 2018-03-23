@@ -1,0 +1,23 @@
+	
+	<button class="mui-btn mui-btn--primary" onclick="activateModal()">Activate modal</button>
+	
+	
+	
+        <link href="//cdn.muicss.com/mui-0.9.35/css/mui.min.css" rel="stylesheet" type="text/css" />
+        <script src="//cdn.muicss.com/mui-0.9.35/js/mui.min.js"></script>
+	
+
+
+	
+	<script>
+	    function activateModal() {
+	        var modalEl = document.createElement('div');
+        	modalEl.style.width = '400px';
+	        modalEl.style.height = '300px';
+            modalEl.style.margin = '100px auto';
+        	modalEl.style.backgroundColor = '#fff';
+	        mui.overlay('on', modalEl);
+	    }
+	</script>
+	
+	`
